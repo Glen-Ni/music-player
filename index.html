@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Music Player</title>
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="background"></div>
+    <div class="musicbox">
+      <div class="header clearfix">
+        <a href="#" class="like-btn"><i class="fa fa-heart-o"></i></a>
+        <p class="now-playing">now playing</p>
+        <a href="#" class="list-btn"><i class="fa fa-list-ul"></i></a>
+      </div>
+      <div class="music-panel">
+        <div class="cover"></div>
+        <div class="info">
+          <div class="title"></div>
+          <div class="author"></div>
+        </div>
+        <div class="control">
+          <span class="backward"><i class="fa fa-step-backward"></i></span>
+          <span class="play"><i class="fa fa-play"></i></span>
+          <span class="forward"><i class="fa fa-step-forward"></i></span>
+        </div>
+        <div class="progress">
+          <div class="bar">
+            <div class="bar-total"></div>
+            <div class="bar-now"></div>
+          </div>
+          <div class="time">
+            <div class="time-now">00:00</div>
+            <div class="time-total">00:00</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="music-list"></div>
+    <script src="js/index.js"></script>
+  </body>
+</html>
