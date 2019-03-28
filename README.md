@@ -1,4 +1,5 @@
 # 音乐播放器（未完工）
+   [预览链接](https://glen-ni.github.io/music-player/)
 ## 待完成
 1. list
    1. list点击弹出动画
